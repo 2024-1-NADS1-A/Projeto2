@@ -20,9 +20,9 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+Nosso projeto utiliza um sensor PIR (Passive Infrared) em conjunto com um ESP32 para detectar a presença de pessoas em uma residência e enviar notificações automáticas através do Telegram. Quando o sensor PIR detecta movimento, o ESP32 processa essa informação e envia uma mensagem instantânea via Telegram para um grupo ou contato específico, alertando sobre a presença de alguém no local. Este sistema é ideal para aumentar a segurança residencial, permitindo que os moradores sejam avisados em tempo real sobre qualquer movimentação suspeita ou entrada não autorizada, independentemente de onde estejam.
 <br><br>
 May the force be with you!
 <br><br>
