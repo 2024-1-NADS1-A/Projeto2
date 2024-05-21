@@ -18,9 +18,9 @@
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
   Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
-
-
-
+<br><br>
+Descrição do Projeto
+<br><br>
 <br><br>
 Nosso projeto utiliza um sensor PIR (Passive Infrared) em conjunto com um ESP32 para detectar a presença de pessoas em uma residência e enviar notificações automáticas através do Telegram. Quando o sensor PIR detecta movimento, o ESP32 processa essa informação e envia uma mensagem instantânea via Telegram para um grupo ou contato específico, alertando sobre a presença de alguém no local. Este sistema é ideal para aumentar a segurança residencial, permitindo que os moradores sejam avisados em tempo real sobre qualquer movimentação suspeita ou entrada não autorizada, independentemente de onde estejam.
 <br><br>
