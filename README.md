@@ -15,7 +15,8 @@
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  Projeto feito por: Cauã William Barbieri Brandão, Gabriel Orlandi Portes, Guilherme Mendes Albuquerque e Rafaela Coelho Bastos
+ 
 </p>
 <br><br>
 Descrição do Projeto
@@ -57,44 +58,35 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
-## 🛠 Instalação
+## 🛠 Equipamentos e Componentes:
 
-<b>Android:</b>
+<p>1. ESP32: Um microcontrolador com Wi-Fi e Bluetooth integrados.</p>
+<p>2. Sensor PIR: Sensor de movimento que detecta a presença de pessoas.</p>
+<p>3. Jumpers e Protoboard: Para conectar os componentes.</p>
+<p>4. Fonte de Alimentação: Pode ser uma bateria ou uma fonte de 5V.</p>
+<p>5. Cabo USB: Para conectar o ESP32 ao computador para programação.</p>
+<p>6. App Telegram: Para receber as notificações</p>
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+## 💻 Passos de Configuração:
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
-
-## 💻 Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
--<a href="https://godotengine.org/download">GODOT</a>
-
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
+<b>1. Instalar o Arduino IDE e Configurar ESP32:</b>
+<p>• Baixe e instale o Arduino IDE a partir do site oficial.<p/>
+<p>• Adicione a placa ESP32 ao Arduino IDE. Vá para File > Preferences e adicione o URL: https://dl.espressif.com/dl/package_esp32_index.json no campo "Additional Board Manager URLs".<p/>
+<p>• Vá para -> <b>Tools</b> -> <b>Board</b> ->  <b>Boards Manager</b>, procure por "esp32" e instale a placa ESP32.<p/>
+  
+<br><br>
+<b>2. Conectar o Sensor PIR ao ESP32:</b>
+<p>• Conecte o VCC do sensor PIR ao pino 5V do ESP32.<p/>
+<p>• Conecte o GND do sensor PIR ao GND do ESP32.<p/>
+<p>• Conecte o pino de saída (OUT) do sensor PIR a um dos pinos digitais do ESP32, por exemplo, GPIO 12.<p/>
+<br><br>
+<b>3. Criar um Bot no Telegram:</b>
+<p>• Abra o Telegram e procure pelo BotFather.<p/>
+<p>• Use o comando /newbot e siga as instruções para criar um novo bot.<p/>
+<p>• Anote o Token do bot fornecido pelo BotFather.<p/>
+<br><br>
+<b>4. Instalar Bibliotecas Necessárias:</b>
+<p>• No Arduino IDE, instale a biblioteca UniversalTelegramBot e a biblioteca WiFi para ESP32.<p/>
 
 ## 🗃 Histórico de lançamentos
 
