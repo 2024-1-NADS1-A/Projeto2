@@ -99,8 +99,8 @@ Coloque código do prompt de comnando se for necessário
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui.
-*0.3.0 - 22/05/2024
-    * Teste na camera 
+* 0.3.0 - 22/05/2024
+    * Teste na camera.
 * 0.2.1 - 20/05/2024
     * Ultimo teste do sistema.
 * 0.2.0 - 06/05/2024
