@@ -14,7 +14,8 @@
 ## Descrição
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
+<img src="![WhatsApp Image 2024-05-24 at 09 32 31](https://github.com/2024-1-NADS1-A/Projeto2/assets/159284004/090f85b9-7f60-4e7f-a090-0de13132e646)
+" alt="SENSOR DE PRESENCA" border="0">
   Projeto feito por: Cauã William Barbieri Brandão, Gabriel Orlandi Portes, Guilherme Mendes Albuquerque e Rafaela Coelho Bastos
  
 </p>
